@@ -5,7 +5,9 @@
 
 
 $ip = trim(fgets(STDIN, 1024));
-echo $ip;
+$sifreli = md5($ip);
+
+echo $sifreli;
 
 
 
